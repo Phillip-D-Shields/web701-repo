@@ -7,4 +7,4 @@ check out my [initial discussion post here](https://github.com/Phillip-D-Shields
 > right now i just have established the repo layout, will start adding blog content soon
 
 ### Current Blogs
-- ##### [Link to Blog-00](https://github.com/Phillip-D-Shields/web701-class/blob/main/blogs/blog-00.md)
+- ##### [Link to Blog-00](https://github.com/Phillip-D-Shields/web701-repo/blob/master/blogs/blog-00.md)
