@@ -20,7 +20,7 @@ We require the following features on the website:
 - 1.Kitchen members and beneficiaries can register, log in and administer their own accounts.
 - 2.Members use the website to register their donations and collect tokens
 - 3.Interactive element(s) that engages the website user.
-- 4.The system provides an interface for the members to accept and view their tokens.
+- 4.The system provides an interface for the members to accept and view their donations via tokens.
 
 
 > ### WEBSITE REQUIREMENTS
@@ -29,7 +29,12 @@ We require the following features on the website:
 The purpose of this website is to act as a organizational hub for our open-source kitchen. Our short term goal is to quickly increase membership, while our long term goal is to create a sustainable volunteer based kitchen that will help ensure that no one in our community does not have access to a healthy meal. The main audience for the website is anyone that is committed to helping and feeding our community in a social and equitable environment. Our hope is that a few well intentioned members of the community will immediately find value in our mission, join, and then help us build outward and gain more membership.
 
 - #### USER EXPERIENCE
-The overall user experience should be extremely simple and almost automated for the user. This will ensure that users aren't prevented from helping
+The overall user experience should be extremely simple and almost automated for the user. This will ensure that users aren't discouraged from helping just because they can not navigate the website. The first type of audience that our website should be catered to is the individual interested in volunteering to better their community. This is a broad audience, so an emphasis should be made on quickly and simply presenting the individual with information that details how much they can impact the community by donating to our open-source kitchen. Our secondary target audience should be anyone that struggles with food security. It is important to present to this audience in a way that shows them how the open-source kitchen can benefit them and their famil, while at the same time letting them also contribute to the community.
+
+> - ##### SCENARIOS
+The ideal user scenario is that a potential user views our website with the desire to volunteer in the community. They would immediately be presented with the vital information about how their cooperation with the open-source kitchen will impact their community in a positive way. They should then be able to register and supply ideal conditions for them to donate time, money, skills, or goods. After registering, the user should receive an automated email with further details about membership, tokens, and the open-source kitchen itself.
+Another ideal scenario is that an individual or family is referred to the website in order to help them with food security. They should easily be able to view meal schedules and conditions for dining at the open-source kitchen. They would also need to register and supply ideal conditions for them to contribute. After registering, the user should receive an automated email with further details about membership, tokens, and the open-source kitchen itself.
+A third scenario
 - #### WEBSITE CONTENT
 - #### WEBSITE STRUCTURE
 
