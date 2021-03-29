@@ -13,24 +13,23 @@ Open-Source Kitchens is a “community style” kitchen in the Nelson region tha
 
 We need a website for the Nelson region for members of the charity to spread information and acquire support from the community. The website lets users register and make donations in the form of their time, money, or physical goods. The website will also provide important upcoming event information.
 
-> #### 03/02/21
-
-The website lets users sign up for donation tokens that are created after successfully donating their time, money, or items. Tokens are then donated to a local shelter or community center of the users choosing. Other tokens will be distributed to local shelters and community centers to be given to anyone in need of a decent meal
-
-The website lets members of the community (beneficiaries) access the service, by providing tokens that can be “spent” in the service. To achieve our goal, we would like to have an online token function on our website that let a beneficiary access a limited number of tokens, for example the system needs a mechanism that verifies that a member of the community is accessing the service and that the token belongs to a particular community member. The website needs some homepage text about general information of our products and services such as: types, characteristics, quality factor, usage and benefit.
+Members will be given tokens after successful donations, and a certain number of tokens will allow members to act in more important kitchen roles, to help design the weeks menu, or to act as an administrator.
 
 We require the following features on the website:
 
-- 1.Charity members and beneficiaries can register, log in and administer their own accounts.
-- 2.Members use the website to register their products and services, and beneficiaries use the system to acquire tokens.
+- 1.Kitchen members and beneficiaries can register, log in and administer their own accounts.
+- 2.Members use the website to register their donations and collect tokens
 - 3.Interactive element(s) that engages the website user.
-- 4.The system provides an interface that the members canuse toaccepta token in a transaction.
+- 4.The system provides an interface for the members to accept and view their tokens.
 
 
 > ### WEBSITE REQUIREMENTS
 
 - #### WEBSITE GOALS
+The purpose of this website is to act as a organizational hub for our open-source kitchen. Our short term goal is to quickly increase membership, while our long term goal is to create a sustainable volunteer based kitchen that will help ensure that no one in our community does not have access to a healthy meal. The main audience for the website is anyone that is committed to helping and feeding our community in a social and equitable environment. Our hope is that a few well intentioned members of the community will immediately find value in our mission, join, and then help us build outward and gain more membership.
+
 - #### USER EXPERIENCE
+The overall user experience should be extremely simple and almost automated for the user. This will ensure that users aren't prevented from helping
 - #### WEBSITE CONTENT
 - #### WEBSITE STRUCTURE
 
