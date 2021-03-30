@@ -47,7 +47,12 @@ The most noteable features of the [World Central Kitchen](https://wck.org/) is t
 
 > ##### SITE MAP
 ![site map](siteMap.png)
+
 - #### WEBSITE STRUCTURE
+![desktop layout](desktopMockUp.png)
+
+![mobile layout](mobileMockUp.png)
 
 > ### USER STORIES
+
 > ### CRUD
