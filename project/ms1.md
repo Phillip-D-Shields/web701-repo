@@ -36,6 +36,9 @@ The ideal user scenario is that a potential user views our website with the desi
 Another ideal scenario is that an individual or family is referred to the website in order to help them with food security. They should easily be able to view meal schedules and conditions for dining at the open-source kitchen. They would also need to register and supply ideal conditions for them to contribute. After registering, the user should receive an automated email with further details about membership, tokens, and the open-source kitchen itself.
 A third scenario
 - #### WEBSITE CONTENT
+
+> - ##### SITE MAP
+![site map](siteMap.png)
 - #### WEBSITE STRUCTURE
 
 > ### USER STORIES
