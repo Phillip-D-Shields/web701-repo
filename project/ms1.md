@@ -33,9 +33,17 @@ The overall user experience should be extremely simple and almost automated for 
 
 > - ##### SCENARIOS
 The ideal user scenario is that a potential user views our website with the desire to volunteer in the community. They would immediately be presented with the vital information about how their cooperation with the open-source kitchen will impact their community in a positive way. They should then be able to register and supply ideal conditions for them to donate time, money, skills, or goods. After registering, the user should receive an automated email with further details about membership, tokens, and the open-source kitchen itself.
+
 Another ideal scenario is that an individual or family is referred to the website in order to help them with food security. They should easily be able to view meal schedules and conditions for dining at the open-source kitchen. They would also need to register and supply ideal conditions for them to contribute. After registering, the user should receive an automated email with further details about membership, tokens, and the open-source kitchen itself.
-A third scenario
+
+A third scenario is that someone hears about the open-source kitchen and visits the website to gather more information. They should be able to easily navigate and find the benefits of the kitchen, as well as how an individual can join and contribute. 
+
+Each of these scenarios, as different as they are, should be considered and used to help create an easy to navigate UI and site map that effortlessly guides the user to their desired point of interest. It is important to present a universal source of information to avoid the feeling of social stratification when a user comes to the website to help or seeking help. An impression of commonality and togetherness should applied to all sections, and the desired information should be accessible without noticeably having to navigate into specified 'give help' or 'need help' sections. Doing this will ensure the user does not feel as if the open source kitchen is charity, but in actuality is an opportunity for everyone.
+
 - #### WEBSITE CONTENT
+Since the open-source kitchen is a fairly unique concept, there are not a lot of competing websites to compare and contrast with. The inspiration for the open-source kitchen is World Central Kitchen, a non-profit travelling kitchen that goes to communities and provides meals for those struggling with food security. Most notably they travel to areas suffering from natural disasters, areas with refugees of conflict, or poverty stricken areas. 
+
+The most noteable features of the [World Central Kitchen](https://wck.org/) is the bold navigation links at top, and the important links immediately displayed on the hero image. This is probably the most important feature as it easily allows any user to immediately locate the exact information they are looking for. Beyond this, the overall style and use of colors and images present a very friendly and easily understood website. The World Central Kitchen website will be a reference point when further designing our open-source kitchen website.
 
 > - ##### SITE MAP
 ![site map](siteMap.png)
