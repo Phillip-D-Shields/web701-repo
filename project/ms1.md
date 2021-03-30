@@ -17,10 +17,10 @@ Members will be given tokens after successful donations, and a certain number of
 
 We require the following features on the website:
 
-- 1.Kitchen members and beneficiaries can register, log in and administer their own accounts.
-- 2.Members use the website to register their donations and collect tokens
-- 3.Interactive element(s) that engages the website user.
-- 4.The system provides an interface for the members to accept and view their donations via tokens.
+- 1. Kitchen members and beneficiaries can register, log in and administer their own accounts.
+- 2. Members use the website to register their donations and collect tokens
+- 3. Interactive element(s) that engages the website user.
+- 4. The system provides an interface for the members to accept and view their donations via tokens.
 
 
 > ### WEBSITE REQUIREMENTS
@@ -31,7 +31,7 @@ The purpose of this website is to act as a organizational hub for our open-sourc
 - #### USER EXPERIENCE
 The overall user experience should be extremely simple and almost automated for the user. This will ensure that users aren't discouraged from helping just because they can not navigate the website. The first type of audience that our website should be catered to is the individual interested in volunteering to better their community. This is a broad audience, so an emphasis should be made on quickly and simply presenting the individual with information that details how much they can impact the community by donating to our open-source kitchen. Our secondary target audience should be anyone that struggles with food security. It is important to present to this audience in a way that shows them how the open-source kitchen can benefit them and their famil, while at the same time letting them also contribute to the community.
 
-> - ##### SCENARIOS
+> ##### SCENARIOS
 The ideal user scenario is that a potential user views our website with the desire to volunteer in the community. They would immediately be presented with the vital information about how their cooperation with the open-source kitchen will impact their community in a positive way. They should then be able to register and supply ideal conditions for them to donate time, money, skills, or goods. After registering, the user should receive an automated email with further details about membership, tokens, and the open-source kitchen itself.
 
 Another ideal scenario is that an individual or family is referred to the website in order to help them with food security. They should easily be able to view meal schedules and conditions for dining at the open-source kitchen. They would also need to register and supply ideal conditions for them to contribute. After registering, the user should receive an automated email with further details about membership, tokens, and the open-source kitchen itself.
@@ -45,7 +45,7 @@ Since the open-source kitchen is a fairly unique concept, there are not a lot of
 
 The most noteable features of the [World Central Kitchen](https://wck.org/) is the bold navigation links at top, and the important links immediately displayed on the hero image. This is probably the most important feature as it easily allows any user to immediately locate the exact information they are looking for. Beyond this, the overall style and use of colors and images present a very friendly and easily understood website. The World Central Kitchen website will be a reference point when further designing our open-source kitchen website.
 
-> - ##### SITE MAP
+> ##### SITE MAP
 ![site map](siteMap.png)
 - #### WEBSITE STRUCTURE
 
