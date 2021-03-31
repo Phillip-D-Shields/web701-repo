@@ -46,7 +46,7 @@ Since the open-source kitchen is a fairly unique concept, there are not a lot of
 The most noteable features of the [World Central Kitchen](https://wck.org/) is the bold navigation links at top, and the important links immediately displayed on the hero image. This is probably the most important feature as it easily allows any user to immediately locate the exact information they are looking for. Beyond this, the overall style and use of colors and images present a very friendly and easily understood website. The World Central Kitchen website will be a reference point when further designing our open-source kitchen website.
 
 > ##### SITE MAP
-![site map](siteMap.png)
+![site map](assets/siteMap.png)
 
 - #### WEBSITE STRUCTURE
 
@@ -60,9 +60,9 @@ The footer will remain consistent on all pages. It will contain information rega
 
 The mockups shown below are first drafts and multiple modifications will occur during the development process. Most noteably, fonts, spacing, and element alignment will all be adjusted to create a more uniform and fluid design.
 
-![desktop layout](desktopMockUp.png)
+![desktop layout](assets/desktopMockUp.png)
 
-![mobile layout](mobileMockUp.png)
+![mobile layout](assets/mobileMockUp.png)
 
 > ### USER STORIES
 - As a guest, I want to be able to view information to help me better understand this organization.
