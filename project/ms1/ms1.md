@@ -49,10 +49,36 @@ The most noteable features of the [World Central Kitchen](https://wck.org/) is t
 ![site map](siteMap.png)
 
 - #### WEBSITE STRUCTURE
+
+I created a general template that will be used for the entire website. This will make sure that website maintanence and usablity will be simple and direct. Each Page, represented by colored bars in the site map above, will contain no more than three elements. The header, a main section, and a footer.
+
+The header will be the first thing a user sees and will have quick navigation access to the most important aspects of that page. A unique background image and header will also be designated to each pages header.
+
+The main section will contain the content outlined in the site map, also a maximum of only three elements will be allowed within a pages main section. This helps to make sure the page does not become cluttered. When possible, less than three elements should be contained within a pages main section.
+
+The footer will remain consistent on all pages. It will contain information regarding existing kitchens, email subscription details, as well as email and social media links.
+
+The mockups shown below are first drafts and multiple modifications will occur during the development process. Most noteably, fonts, spacing, and element alignment will all be adjusted to create a more uniform and fluid design.
+
 ![desktop layout](desktopMockUp.png)
 
 ![mobile layout](mobileMockUp.png)
 
 > ### USER STORIES
-
+- As a guest, I want to be able to view information to help me better understand this organization.
+- As a guest, I want to be able to sign up for email notifications about future events.
+- As a guest, I want to be able to register as a member and acquire more information about what a member does
+- As a member, I want to quickly access information about my responsobilities.
+- As a member, I want to sign up to donate my time, skills, goods, and/or money.
+- As a member, I want to view my past participation and accumalation of tokens.
+- As a member, I want to exchange my tokens for more responsibility or for a meal.
+- As a member, I want to delete my information or entire account. 
 > ### CRUD
+
+![CRUD TABLE](assets/web7-crud-ms1.png)
+
+> ### API BOILERPLATE
+
+[ExpressJs Generator](https://expressjs.com/en/starter/generator.html#express-application-generator) has been used to generate [boilerplate API code](files/server/app.js). It will be modified and updated as the project continues.
+
+![api boilerplate](assets/api-boilerplate.png)
