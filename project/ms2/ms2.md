@@ -24,7 +24,17 @@ Angular is feature rich framework that utlises the MVC architecture. The use of 
 
 ## INSTALLATION
 
-<!-- insert screenshots and descriptions of framework installs -->
+### Vue
+
+There are a number ways to install or add Vue to a project. There is an [official CLI tool](https://cli.vuejs.org/) that provides a number of useful options when starting a new project. Vue can also be added via CDN, NPM, and downloaded and added directly to the project root. The most effecient way is to use the CLI because it automatically creates the correct project directory and adds template files to create a simple working app upon completion. The CLI has two options to create a new project, either by CLI or by a UI. This project will use the Vue CLI to ensure the creation is simple and direct.
+
+<!-- screenshots -->
+
+### Angular
+
+An [Angular CLI](https://angular.io/guide/setup-local#install-the-angular-cli) is used to create projects. The installation and use is similar to that of Vue, with some distinct differences regarding the list of possible commands and options available. A majority of an Angualar project, including components and various smaller elements can be generated via CLI. 
+
+<!-- screenshots -->
 
 ### PROOF OF CONCEPT
 
