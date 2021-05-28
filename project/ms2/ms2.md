@@ -28,17 +28,32 @@ Angular is feature rich framework that utlises the MVC architecture. The use of 
 
 There are a number ways to install or add Vue to a project. There is an [official CLI tool](https://cli.vuejs.org/) that provides a number of useful options when starting a new project. Vue can also be added via CDN, NPM, and downloaded and added directly to the project root. The most effecient way is to use the CLI because it automatically creates the correct project directory and adds template files to create a simple working app upon completion. The CLI has two options to create a new project, either by CLI or by a UI. This project will use the Vue CLI to ensure the creation is simple and direct.
 
-<!-- screenshots -->
+> Vue Cli install command
+
+![vue install](assets/vueInstall.png)
+
+> Vue CLI create command
+
+![vue create](assets/vueCreate.png)
+
+
+
 
 ### Angular
 
 An [Angular CLI](https://angular.io/guide/setup-local#install-the-angular-cli) is used to create projects. The installation and use is similar to that of Vue, with some distinct differences regarding the list of possible commands and options available. A majority of an Angualar project, including components and various smaller elements can be generated via CLI. 
 
-<!-- screenshots -->
+> Angular Cli install command
+
+![Angular install](assets/anInstall.png)
+
+> Angular CLI create command
+
+![Angular create](assets/anCreate.png)
 
 ### PROOF OF CONCEPT
 
-Since maneuvering between multiple frameworks can
+Since maneuvering between multiple frameworks can be very difficult, I have looked for solutions to the following tasks that can be used for both frameworks with similiar configurations.
 
 #### REGISTER, LOGIN, ADMIN
 
@@ -46,7 +61,25 @@ A common solution to registering, logging in, and creating administrative rights
 
 Another feature of Auth0 is that it has already established framework specific solutions, so both Vue and Angular have support "out-of-the-box". Auth0 also contains thourough instructions on how to configure features for each framework, as well as a "roles" feature that can distinguish between normal users and admins. Since Auth0 can provide registration, login, and admin services for both Vue and Angular, it is an easy choice for this project.
 
-<!-- screenshot of auth0 -->
+> Auth0 app create screen
+
+![auth0 create app](assets/authStart.png)
+
+> Auth0 express impliminatation
+
+![auth0 express code](assets/authExpress.png)
+
+> Auth0 frontend instance verification
+
+![auth0 frontend authguard code](assets/authGuard.png)
+
+> Auth0 frontend code
+
+![auth0 frontend code](assets/authCodeOne.png)
+
+![auth0 frontend code](assets/authCodeTwo.png)
+
+
 
 #### TOKEN DISTRIBUTION
 
