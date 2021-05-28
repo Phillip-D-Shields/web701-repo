@@ -85,7 +85,13 @@ Another feature of Auth0 is that it has already established framework specific s
 
 Token distribution to users will be done via their user profiles. For each user profile a wallet will be included, this wallet will be used to record the users activity with the Open Source Kitchen. This wallet will be an array that accepts json objects with relavant info regarding the users activity. If the array contains enough objects, aka tokens, then the user can then apply for positions with more responsibilities in the kitchen. 
 
-<!-- screenshot of user profile with wallet array -->
+> User profile schema with wallets
+
+![user schema](assets/tokenWallets.png)
+
+> Token schema
+
+![token schema](assets/tokenSchema.png)
 
 #### INTERACTIVE ELEMENTS
 
@@ -97,9 +103,17 @@ The token interface will be a button located on an event card that states the us
 
 A user will also be able to view the contents of their wallet via their profile page. Tokens that have not been confirmed by an admin will be shown in a separate section from the tokens that are confirmed.
 
+> Token interface button
+
+![token button](assets/tokenInterface.png)
+
 #### SERVER-SIDE API
 
 All MongoDB interactions can be controlled within the Express backend. Both frameworks can essentially "plug and play" with the Express backend. 
+
+> Express and MongoDB code snippet (just basic connection via mongoose)
+
+![express mongo code snippet](assets/expressMongo.png)
 
 ## FINAL RECOMMENDATION
 
