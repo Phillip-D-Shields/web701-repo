@@ -117,4 +117,4 @@ All MongoDB interactions can be controlled within the Express backend. Both fram
 
 ## FINAL RECOMMENDATION
 
-The final recommendation for this project is the framework Vue. It's simple implementation and lightweight are perfect for an SPA(single-page app) like ours. It contains all the basic features the website requires including routing and state management. Vue is well documented and its powerful integration with Auth0 services provide the exact features required to register, login, logout, support admin roles, and distribute volunteer based tokens to its users.
+The final recommendation for this project is the framework Vue. It's simple implementation and lightweight are perfect for an SPA(single-page app) like ours. It contains all the basic features the website requires including routing and state management. Vue is well documented and its powerful integration with Auth0 services provide the exact features required to register, login, logout, and support admin roles. The fact that Vue is an open-source community project aligns perfectly with the ideals and mission of the Open Source Kitchen. 
