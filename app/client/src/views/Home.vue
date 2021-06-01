@@ -31,10 +31,6 @@ export default {
     login() {
       this.$auth.loginWithRedirect();
     },
-
-    display(input) {
-      console.log(input);
-    }
   }
 }
 </script>
