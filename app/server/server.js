@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 // Set up Auth0 configuration
 const authConfig = {
   domain: "dev-kjlw34p9.au.auth0.com",
-  audience: "https://vue-express-api.com"
+  audience: "https://web7-backend.herokuapp.com/"
 };
 
 // Create middleware to validate the JWT using express-jwt
