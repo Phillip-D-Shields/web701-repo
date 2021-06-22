@@ -213,9 +213,9 @@ The final recommendation for this project is the framework Vue. It's simple impl
 
 ### PART ONE 
 
-> - [register, login, admin](###-REGISTER-LOGIN-ADMIN)
+> - register, login, admin : covered in [milestone two](#Milestone-2-Evaluate)
 
-> - [beneficiaries use system to acquire tokens](###-TOKEN-INTERFACE)
+> - beneficiaries use system to acquire tokens : covered in [milestone two](#Milestone-2-Evaluate)
 
 > - interactive elements
 
@@ -236,7 +236,7 @@ The final recommendation for this project is the framework Vue. It's simple impl
 ![admin dashboard](./assets/adminDashboard.png)
 
 
-> - [store and retrieve data api](###-SERVER-SIDE-API)
+> - store and retrieve data api : covered in [milestone two](#Milestone-2-Evaluate)
 
 ### PART TWO
 
