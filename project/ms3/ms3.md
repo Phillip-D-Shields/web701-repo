@@ -254,7 +254,7 @@ My favorite part of Vue is it's native command-line interface, or CLI, that allo
 
 After the initial project was setup via the CLI, an additional command ``` vue add router ``` can be run to directly install and configure a router boilerplate configuration in the project. 
 
-The next part of the project involved connecting the [Auth0 services](https://auth0.com/) with the project. Most of this process is covered in the [register, login, admin section](####REGISTER-LOGIN-ADMIN) of Milestone Two. Having industry grade security services with up-to-date documentation specifically for Vue was a massive time saver and gives the project industry-grade security and integrity.
+The next part of the project involved connecting the [Auth0 services](https://auth0.com/) with the project. Most of this process is covered in the [register, login, admin section](####-REGISTER-LOGIN-ADMIN) of Milestone Two. Having industry grade security services with up-to-date documentation specifically for Vue was a massive time saver and gives the project industry-grade security and integrity.
 
 Since the Auth0 services run primarily through the backend, the configuration documentation also helped me create and configure the server used for the project. Some special configuration was needed to establish user roles and permissions that would allow certain users to have the ability to access and modify users. 
 
