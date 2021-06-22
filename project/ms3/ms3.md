@@ -142,7 +142,7 @@ An [Angular CLI](https://angular.io/guide/setup-local#install-the-angular-cli) i
 
 Since maneuvering between multiple frameworks can be very difficult, I have looked for solutions to the following tasks that can be used for both frameworks with similiar configurations.
 
-#### REGISTER LOGIN ADMIN
+### REGISTER LOGIN ADMIN
 
 A common solution to registering, logging in, and creating administrative rights is to use a third-party library or service. Having the dedveloper create their own system can be time consuming, and depending on the developer, could lead to lots of buggy elements. For both Vue and Angular, this website will incorporate [Auth0 services](https://auth0.com/). Using Auth0 in combination with the framework will ensure the latest and safest protocols will be used. Auth0 offers free services to small projects, and has a large and demanding enterprise cliental. Using Auth0 will give our project and its users the same security and features that fortune 500 companies use.
 
@@ -184,7 +184,7 @@ Token distribution to users will be done via their user profiles. For each user 
 
 Interactive elements on the website will be limited. An emphasis will be put on clean design and UI simplicity. This will make sure users with different technical abilities will be able to access our services easily. More of a focus should be placed on the website being responsive since a lot of users will access the website via a tablet or mobile device. [The CSS framework Bulma](https://bulma.io/) will be used to make styling and responsive design much easier to implement and will help enforce styling consistency across the project.
 
-#### TOKEN INTERFACE
+### TOKEN INTERFACE
 
 The token interface will be a button located on an event card that states the user will attend as a volunteer. When the button is pressed, a JSON event specific object will be added to the users profile wallet array. The JSON object will contain a key value pair ``` hasAttended: false ```, after the users attendance at the event is confirmed an admin will update the key value pair to ``` true ```. Since this event is handled via a button click it can be easily implemented the same way in both frameworks. 
 
@@ -194,7 +194,7 @@ A user will also be able to view the contents of their wallet via their profile 
 
 ![token button](../ms2/assets/tokenInterface.png)
 
-#### SERVER-SIDE API
+### SERVER-SIDE API
 
 All MongoDB interactions can be controlled within the Express backend. Both frameworks can essentially "plug and play" with the Express backend. 
 
@@ -213,9 +213,9 @@ The final recommendation for this project is the framework Vue. It's simple impl
 
 ### PART ONE 
 
-> - [register, login, admin](####-REGISTER-LOGIN-ADMIN)
+> - [register, login, admin](###-REGISTER-LOGIN-ADMIN)
 
-> - [beneficiaries use system to acquire tokens](####-TOKEN-INTERFACE)
+> - [beneficiaries use system to acquire tokens](###-TOKEN-INTERFACE)
 
 > - interactive elements
 
@@ -236,7 +236,7 @@ The final recommendation for this project is the framework Vue. It's simple impl
 ![admin dashboard](./assets/adminDashboard.png)
 
 
-> - [store and retrieve data api](####-SERVER-SIDE-API)
+> - [store and retrieve data api](###-SERVER-SIDE-API)
 
 ### PART TWO
 
@@ -254,7 +254,7 @@ My favorite part of Vue is it's native command-line interface, or CLI, that allo
 
 After the initial project was setup via the CLI, an additional command ``` vue add router ``` can be run to directly install and configure a router boilerplate configuration in the project. 
 
-The next part of the project involved connecting the [Auth0 services](https://auth0.com/) with the project. Most of this process is covered in the [register, login, admin section](####-REGISTER-LOGIN-ADMIN) of Milestone Two. Having industry grade security services with up-to-date documentation specifically for Vue was a massive time saver and gives the project industry-grade security and integrity.
+The next part of the project involved connecting the [Auth0 services](https://auth0.com/) with the project. Most of this process is covered in the [register, login, admin section](####REGISTER-LOGIN-ADMIN) of Milestone Two. Having industry grade security services with up-to-date documentation specifically for Vue was a massive time saver and gives the project industry-grade security and integrity.
 
 Since the Auth0 services run primarily through the backend, the configuration documentation also helped me create and configure the server used for the project. Some special configuration was needed to establish user roles and permissions that would allow certain users to have the ability to access and modify users. 
 
