@@ -266,7 +266,7 @@ After implementing all core elements the project stack, the rest of the time was
 
 A fair numbers were encountered during the development of the project and not all have been resolved at the time of writing this. Obviously, for a real project there would be a period of testing, readjustment, bug fixing that would allow for the remaining issues to be fixed or removed. Originally, I had wanted to establish and deploy the backend via [Heroku](https://www.heroku.com) and deploy the frontend via [Netlify](https://www.netlify.com). Because I am not very experienced with Auth0 services yet, I found configuring and connecting the backend with the frontend in this way to be more complex than originally thought. Another issue I ran into was with the authentication services affecting the way in which the backend made requests and responses with MongoDB. I was able to establish the basic connection, but ran into issues interacting with the MongoDB collections the same way I had in previous projects with the mongooose client. Given more time, I am confident these issues could have been resolved.
 
-> The impact of Vues
+> The impact of Vue
 
 Vue has had an interesting and impactful introduction to the web development world. Originally created by [Evan You](https://www.linkedin.com/in/evanyou/) as a way of only using the parts of Angular that he enjoyed using, and felt were lightweight enough for smaller and simpler projects. It grew into an open source project driven by a collective of like-minded developers over the years. Vue has grown massively over the years, both in functionality and in popularity. The project currently has over 185 thousand stars on [its Github repository](https://github.com/vuejs/vue), which is more than Angular or React.
 
