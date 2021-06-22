@@ -213,14 +213,30 @@ The final recommendation for this project is the framework Vue. It's simple impl
 
 ### PART ONE 
 
-> - [register, login, admin](####-REGISTER-LOGIN-ADMIN)
-> - [beneficiaries use system to acquire tokens](####-TOKEN-INTERFACE)
+> - [register, login, admin](####REGISTER-LOGIN-ADMIN)
+
+> - [beneficiaries use system to acquire tokens](####TOKEN-INTERFACE)
+
 > - interactive elements
 
-<!-- screenshots of interactive stuff here -->
+> ### landing page with no user logged in
+
+![Landing page with no user logged in](./assets/noLogin.png)
+
+> ### landing page with normal user logged in
+
+![Landing page with normal user logged in](./assets/userLogin.png)
+
+> ### landing page with admin logged in
+
+![Landing page with admin logged in](./assets/adminLogin.png)
+
+> ### admin dashboard
+
+![admin dashboard](./assets/adminDashboard.png)
 
 
-> - [store and retrieve data api](####-SERVER-SIDE-API)
+> - [store and retrieve data api](####SERVER-SIDE-API)
 
 ### PART TWO
 
@@ -230,7 +246,7 @@ The final recommendation for this project is the framework Vue. It's simple impl
 
 > introduction
 
-For this project I have chosen to use [Vue.js](https://v3.vuejs.org/guide/introduction.html) as the UI framework for my Open Source Kitchen website. There are a number of reasons why this framework was chosen, but the main one is that it is a community driven open-source project created and developed by a large developer community. It is considered a progressive framework that is easily adopted incrementally. Vue is great for powering Single-Page Applications, smaller projects, or integrating into other projects with minimal configuration. Many developers prefer Vue for its core system that declaritively renders data to the DOM with a simple and easy to understand template syntax.
+For this project I have chosen to use [Vue.js](https://v3.vuejs.org/guide/introduction.html) as the UI framework for my Open Source Kitchen website. There are a number of reasons why this framework was chosen, but the main one is that it is a community driven open-source project created and developed by a large developer community. It is considered a progressive framework that is easily adopted incrementally. Vue is great for powering Single-Page Applications, smaller projects, or integrating into other projects with minimal configuration. Many developers prefer Vue for its core system that declaratively renders data to the DOM with a simple and easy to understand template syntax.
 
 >  implementation
 
@@ -238,6 +254,22 @@ My favorite part of Vue is it's native command-line interface, or CLI, that allo
 
 After the initial project was setup via the CLI, an additional command ``` vue add router ``` can be run to directly install and configure a router boilerplate configuration in the project. 
 
-The next part of the project involved connecting the [Auth0 services](https://auth0.com/) with the project. Most of this process is covered in the [register, login, admin section](####-REGISTER-LOGIN-ADMIN) of Milestone Two. Having industry grade security services with up-to-date documentation specifically for Vue was a massive time saver and gives the project industry-grade security and integrity.
+The next part of the project involved connecting the [Auth0 services](https://auth0.com/) with the project. Most of this process is covered in the [register, login, admin section](####REGISTER-LOGIN-ADMIN) of Milestone Two. Having industry grade security services with up-to-date documentation specifically for Vue was a massive time saver and gives the project industry-grade security and integrity.
 
 Since the Auth0 services run primarily through the backend, the configuration documentation also helped me create and configure the server used for the project. Some special configuration was needed to establish user roles and permissions that would allow certain users to have the ability to access and modify users. 
+
+The last part of the setting up the project was connecting the backend with [MongoDB](https://www.mongodb.com/), there is also a decent amount of documentation covering the process so this was a straightforward process.
+
+After implementing all core elements the project stack, the rest of the time was spent on adding specific features like the responsive navbar, user and token schema for mongodb, as well as a number of aesthetic features.
+
+> Problems
+
+A fair numbers were encountered during the development of the project and not all have been resolved at the time of writing this. Obviously, for a real project there would be a period of testing, readjustment, bug fixing that would allow for the remaining issues to be fixed or removed. Originally, I had wanted to establish and deploy the backend via [Heroku](https://www.heroku.com) and deploy the frontend via [Netlify](https://www.netlify.com). Because I am not very experienced with Auth0 services yet, I found configuring and connecting the backend with the frontend in this way to be more complex than originally thought. Another issue I ran into was with the authentication services affecting the way in which the backend made requests and responses with MongoDB. I was able to establish the basic connection, but ran into issues interacting with the MongoDB collections the same way I had in previous projects with the mongooose client. Given more time, I am confident these issues could have been resolved.
+
+> The impact of Vues
+
+Vue has had an interesting and impactful introduction to the web development world. Originally created by [Evan You](https://www.linkedin.com/in/evanyou/) as a way of only using the parts of Angular that he enjoyed using, and felt were lightweight enough for smaller and simpler projects. It grew into an open source project driven by a collective of like-minded developers over the years. Vue has grown massively over the years, both in functionality and in popularity. The project currently has over 185 thousand stars on [its Github repository](https://github.com/vuejs/vue), which is more than Angular or React.
+
+The development of Vue has not been without obstacles and mistakes. The version upgrade from 2 to 3 was not well documented, and caused a fair amount of confusion and framework conflicts. Steps have been taken to address the problems caused, and now the official documentation goes to great lengths to make sure users are aware of of potential issues and their remedies when using different versions or upgrading versions. The Vue CLI also highlights this issue when presenting project configuration options before starting the creation of any new projects.
+
+Vue will continue to rise in popularity as new developers are introduced to it, and that popularity will continue to fuel the open source community development of the framework. The simplicity and straightforward features combined with the lightweight make it perfect for single-page applications, decentralized apps, and most small to medium scale projects. When combined with existing libraries and packages it can easily scale and adapt to large scale projects, this flexibility and configurability makes it one of the most useful frameworks currently available. 
