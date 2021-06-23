@@ -7,7 +7,4 @@ I have enabled discussions on this repo, just click on the Discussions tab above
 check out the [initial discussion post here](https://github.com/Phillip-D-Shields/web701-repo/discussions/1)
 
 
-### Current Blogs
-- ##### [Link to Blog-00 intro](https://github.com/Phillip-D-Shields/web701-repo/blob/master/blogs/blog-00.md)
-- ##### [link to Blog-01 MEAN Tuts](https://github.com/Phillip-D-Shields/web701-repo/blob/master/blogs/blog-01.md)
-- ##### [link to blog-02 MEAN tuts && TS](https://github.com/Phillip-D-Shields/web701-repo/blob/master/blogs/blog-02.md)
+> ### [blogs here](https://github.com/Phillip-D-Shields/web701-repo/tree/master/blogs)
